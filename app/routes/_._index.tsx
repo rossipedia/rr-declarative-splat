@@ -1,3 +1,10 @@
+import { Link } from 'react-router';
+
 export default function Component() {
-  return <h1>Hello React Router</h1>;
+  return (
+    <div>
+      <h1>Hello React Router</h1>
+      <Link to="/foo">/foo</Link>
+    </div>
+  );
 }
